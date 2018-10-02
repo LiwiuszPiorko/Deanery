@@ -13,6 +13,10 @@ public class Teacher extends ParticipantsOfEducation {
     public void setSeniority(int seniority) {
         this.seniority = seniority;
     }
+    public String showInfo(){
+        String info=firstName+", "+lastName+", "+seniority;
+        return info;
+    }
 }
 
 

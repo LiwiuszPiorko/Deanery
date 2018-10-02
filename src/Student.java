@@ -15,5 +15,10 @@ public class Student extends ParticipantsOfEducation {
     public void setYearOfStudy(int yearOfStudy) {
         this.yearOfStudy = yearOfStudy;
     }
+
+    public String showStudentInfo() {
+        String sInfo = firstName + ", " + lastName + ", " + yearOfStudy;
+        return sInfo;
+    }
 }
 
